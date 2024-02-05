@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #352F44;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: #B9B4C7;
+    font-size: 4rem;
+    font-family: fantasy;
+
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 15px;
+    height: 70vh;
+    width: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 22vh;
+    width: 22vh;
+    background-color: #FAF0E6;
+    border-radius: 1.3rem;
+    margin: 5px;
+    font-size: 13vh;
+    font-weight: 300;
+    font-family:sans-serif;
+    color: black;
+}
+
+#reset{
+    width: 200px;
+    font-size: 40px;
+    background-color: #FAF0E6;
+    border-radius: 0.8rem;
+    margin: 15px;
+}
+#winDec{
+    position: absolute;
+    right: 50px;
+    top: 30vh;
+    height: 15vh;
+    width:300px;
+    background-color: #B9B4C7;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 0.8rem;
+}
+#new{
+    position: absolute;
+    right: 80px;
+    top: 50vh;
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #FAF0E6;
+    border-radius: 0.8rem;
+    margin: 15px;
+}
+.hide{
+    visibility: hidden;
+}
+.player{
+    position: absolute;
+    left: 50px;
+    top: 30vh;
+    height: 9vh;
+    width:300px;
+    background-color: #B9B4C7;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 0.8rem;
+}
